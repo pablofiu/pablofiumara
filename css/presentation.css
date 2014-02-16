@@ -1,0 +1,57 @@
+h1, h2 {
+    text-align: center;    
+}
+
+table {
+    height: 100%;
+    width : 100%;
+}
+
+td {
+    width: 50%;
+}
+
+img.portfolio {
+    vertical-align: middle;
+}
+
+li span {
+    background: gold;
+}
+
+#myPicture {
+    float: left;
+	filter: url(filters.svg#grayscale);  /* Firefox 3.5+ */
+	filter: gray;                       /*  IE6-9       */
+	-webkit-filter: grayscale(1);		/* Chrome, Safari 6+ & Opera 15+ */
+	
+}
+
+#myPicture:hover {
+    filter: none;
+	-webkit-filter: grayscale(0);
+}
+
+#title {
+	background-color:rgba(144,178,71,0.2);
+	color:blue;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
