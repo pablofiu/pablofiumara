@@ -40,7 +40,9 @@ li span {
     -ms-user-select: none;
 }
 
-
+#changeFontSize {
+        text-align: right;
+}
 
 
 
