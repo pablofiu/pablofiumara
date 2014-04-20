@@ -3,6 +3,10 @@
 //(which has data called object's properties) with a single method (function)
 
 function makeSizer(size) {
+    //activating it on a function-by-function basis because my page might depend
+    //on features of non-strict mode (if strict mode would be activated, it'd
+    //break).
+    'use strict';
 //makeSizer:function factory because it returns (or creates) a new function
   return function() {
       //document:object
@@ -28,6 +32,7 @@ var size18 = makeSizer(18);
 //Code is attached to onload event as a callback: single function executed in 
 //response to the event
 window.onload = function() {
+    'use strict';
     //attach size12, size14 and size18 functions to buttons
     //each web page loaded in the browser has its own document object
     //getElementById: one of document's methods
