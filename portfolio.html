@@ -6,6 +6,8 @@
 	<link rel="stylesheet"
 	href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
 	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="slide.js"></script>
+	<link rel="stylesheet" href="slide.css" type="text/css"  />
 	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 	<link rel="stylesheet" href="css/presentation.css" type="text/css"  />
 	<script>
@@ -37,7 +39,22 @@
 		<div>
                     <p>Java + Spring + SQL Server + Hibernate + JBoss + JSP + consume servicio web + Maven</p>
                     <p><a href="https://github.com/pablofiumara/abmLibro/">Click here to download the code</a> 	    	
-                    <img src="static/images/magento-specialCategories/magento-specialCategories.gif" alt="Picture of Magento extension named Special Categories" />
+		    <div id="slider">
+  <a href="#/" class="control_next">>></a>
+  <a href="#/" class="control_prev"><</a>
+  <ul>
+	  <li>	  <img src="static/images/abmLibros/agregar.png" alt="agregar"></li>
+	  <li style="background: #aaa;">	  <img src="static/images/abmLibros/agregado.png" alt="agregado"></li>
+	  <li>	  <img src="static/images/abmLibros/borrar.png" alt="borrar"></li>
+	  <li style="background: #aaa;">	  <img src="static/images/abmLibros/agregado.png" alt="agregado"></li>
+
+  </ul>  
+</div>
+
+<div class="slider_option">
+  <input type="checkbox" id="checkbox">
+  <label for="checkbox">Autoplay Slider</label>
+</div> 
 		</div> 
 
 	</div>
